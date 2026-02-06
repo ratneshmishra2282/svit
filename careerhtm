@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header"> ... </header>
+
+  <section class="career-section">
+    <div class="job-card">
+      <h3>Frontend Developer</h3>
+      <button class="expand-btn">Details</button>
+      <div class="job-details">Responsibilities and requirements...</div>
+    </div>
+    <form class="resume-upload">
+      <input type="file" id="resume">
+      <button type="submit">Upload Resume</button>
+    </form>
+  </section>
+
+  <footer class="footer"> ... </footer>
+  <script src="script.js"></script>
+</body>
+</html>
